@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+    <name>Krishinc_Videogallery</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>A Video Gallery Extension Is Allow Admin To Upload YouTube Video By Video URL. And also admin can enter the video category name on the admin section for perticular Video.A Video Gallery Extension Is Allow Admin To Upload YouTube Video By Video URL.</summary>
+    <description>Note:- Please Disable the Cache and Compilation before Install this module.&#xD;
+&#xD;
+A Video Gallery Extension Which automatically upload YouTube video By Video URL. And also admin can enter the video category name on the admin section for perticular video. &#xD;
+&#xD;
+A Video Gallery Extension Give You a Configration Section. In this section admin can set the Number of Video Display Per Page.&#xD;
+&#xD;
+A Video Gallery Extension automatically manage all the video by category and it can be display on Frontend with all the video and also display by category.&#xD;
+&#xD;
+A Video Gallery Extension automatically set the video gallery link on the top navigation.&#xD;
+&#xD;
+Note:- Please Refresh the Cache and Enable the Cache and Compilation after Installed this module.&#xD;
+</description>
+    <notes>Fixed minor bug</notes>
+    <authors><author><name>Mayank Zalavadia</name><user>zalavadia</user><email>mayankzalavadia@gmail.com</email></author></authors>
+    <date>2012-12-27</date>
+    <time>10:22:32</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Krishinc_Videogallery.xml" hash="c72873019478662f79fc4c21906eb6e9"/></dir></target><target name="magecommunity"><dir name="Krishinc"><dir name="Videogallery"><dir name="Block"><dir name="Adminhtml"><dir name="Videogallery"><dir name="Edit"><file name="Form.php" hash="265beb2e84dd33088ccc934b2d3526d3"/><dir name="Tab"><file name="Form.php" hash="15767eb442cf739abde9bd25bcd06f38"/></dir><file name="Tabs.php" hash="8bc23ec1af91e7a58757270b3bea842c"/></dir><file name="Edit.php" hash="0b48b01569d3dd5e2ad88088b077ab26"/><file name="Grid.php" hash="eb3aec442ef6322f5ebda473bb8cc4c9"/></dir><file name="Videogallery.php" hash="65e643bb950faf7bb0d665acb8216843"/></dir><dir name="Product"><file name="Videogallery.php" hash="bc3c1d0def14adcfb187d82fc2cf42c5"/></dir><dir name="Renderer"><file name="Image.php" hash="ec6ff859d2de5928a6225569dc5985e7"/></dir><file name="Videogallery.php" hash="9bdd8d7b8d4d491db311844b3fd8ee40"/></dir><dir name="Helper"><file name="Data.php" hash="c455ceb7e8df6f7b1120b45126e339b8"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Videogallery"><file name="Collection.php" hash="ad56aea5dbdb1ed03653d244491a4cc7"/></dir><file name="Videogallery.php" hash="23a402e533038cfc29d5c18d64aba4ce"/></dir><file name="Videogallery.php" hash="cc6d6634e80bfb52072c2522ed0763ee"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="VideogalleryController.php" hash="cce7ec03a845ef2fe153acfcb98e740e"/></dir><file name="IndexController.php" hash="621900d01c77677b549856935c9aad7e"/></dir><dir name="etc"><file name="config.xml" hash="f13dacde0e15d0116aa0a0a21326c263"/><file name="system.xml" hash="1a1d46f6188134113b2eaa2e51f65533"/></dir><dir name="sql"><dir name="videogallery_setup"><file name="mysql4-install-0.1.0.php" hash="50ca60ddbf0ab5fef2f206dd0622801d"/></dir></dir></dir></dir></target><target name="magedesign"><dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="videogallery.xml" hash="b2c28d542c5666b07012d2ec1b38e557"/></dir><dir name="template"><dir name="videogallery"><file name="videogallery.phtml" hash="1fdab99f82caac7c65178f0591c67f0c"/><file name="videogallerylist.phtml" hash="465667f00e61c7d001ba6db206d912b2"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
