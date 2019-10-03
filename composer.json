@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Krishinc_Videogallery",
+    "name": "openmage-module-fostering\/krishinc_videogallery",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "A Video Gallery Extension Is Allow Admin To Upload YouTube Video By Video URL. And also admin can enter the video category name on the admin section for perticular Video.A Video Gallery Extension Is Allow Admin To Upload YouTube Video By Video URL.",
     "authors": [
